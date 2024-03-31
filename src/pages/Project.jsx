@@ -37,7 +37,7 @@ const Project = () => {
           <p className="text-white fs-normal pe-5">{`Embark on a design journey that goes beyond pixels. Let's create meaningful user experiences together – your vision, my craft.`}</p>
 
           <Button 
-          onClick={()=>navigate('/hntv/contact')}
+          onClick={()=>navigate('/contact')}
           className="bg-blue-main border border-0 button-gradient mx-3">
             Contact {">"}
           </Button>        

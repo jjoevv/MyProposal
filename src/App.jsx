@@ -15,17 +15,17 @@ function App() {
 
   return (
     <HashRouter>
-    
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Project />} />
-        <Route path="/aboutme" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/project/:id" element={<Detail/>}/>
-        <Route path="*" element={<NoPage />} />
-      </Route>
-    </Routes>
-  </HashRouter>
+
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Project />} />
+          <Route path="/aboutme" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/project/:id" element={<Detail />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   )
 }
 
