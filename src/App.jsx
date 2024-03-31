@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Project from './pages/Project';
@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <BrowserRouter basename={"/MyProposal/"}>
+    <HashRouter>
     
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -25,7 +25,7 @@ function App() {
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   )
 }
 

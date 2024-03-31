@@ -21,9 +21,9 @@ const Layout = () => {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle-icon'/>
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ms-auto">
-        <Link to='/hntv' className={location.pathname === '/hntv' ? 'active-link nav-link' : 'nav-link'}>Projects</Link>
-        <Link to='/hntv/aboutme' className={location.pathname === '/hntv/aboutme' ? 'active-link nav-link' : 'nav-link'}>About</Link>
-        <Link to='/hntv/contact' className={location.pathname === '/hntv/contact' ? 'active-link nav-link' : 'nav-link'}>Contact</Link>
+        <Link to='/' className={location.pathname === '/' ? 'active-link nav-link' : 'nav-link'}>Projects</Link>
+        <Link to='/aboutme' className={location.pathname === '/aboutme' ? 'active-link nav-link' : 'nav-link'}>About</Link>
+        <Link to='/contact' className={location.pathname === '/contact' ? 'active-link nav-link' : 'nav-link'}>Contact</Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

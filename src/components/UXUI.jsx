@@ -40,7 +40,7 @@ const UXUI = () => {
               <Card.Title>Petshop Website</Card.Title>
               <Card.Text className='text-justify'>This is a class project on designing a website interface for the care and rescue of animals.</Card.Text>
               <Card.Text>Year// 2023</Card.Text>
-              <Button className='tertiary-normal border-0' onClick={() => navigate(`/hntv/project/petshop`)}>
+              <Button className='tertiary-normal border-0' onClick={() => navigate(`/project/petshop`)}>
                 <Image src={ArrowIcon} width={18} className='me-3' />
                 See more
               </Button>

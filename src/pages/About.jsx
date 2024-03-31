@@ -76,7 +76,7 @@ const About = () => {
             <div className="my-3">After spending countless hours as a designer (feel free to ask me about my favorite medium!), I enjoy unwinding with recreational games and indulging in movies as a small hobby.</div>
           </div>
           <Button className="bg-blue-main border border-0 button-gradient ms-5">
-            <a href="/resume.pdf" target="_blank" className="text-decoration-none text-white">
+            <a href="/MyProposal/resume.pdf" target="_blank" className="text-decoration-none text-white">
               VIEW RESUME
             </a>
           </Button>
