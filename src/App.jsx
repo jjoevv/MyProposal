@@ -14,10 +14,10 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/MyProposal/"}>
     
     <Routes>
-      <Route path="/hntv" element={<Layout />}>
+      <Route path="/MyProposal/hntv" element={<Layout />}>
         <Route index element={<Project />} />
         <Route path="/hntv/aboutme" element={<About />} />
         <Route path="/hntv/contact" element={<Contact />} />
