@@ -9,7 +9,7 @@ const Layout = () => {
     <>
      <Navbar collapseOnSelect expand="lg" className='blue-normal p-0 w-100 shadow' fixed='top'>
   <Container fluid className='d-flex justify-content-between mx-5 px-2 p-0'>
-    <Navbar.Brand as={Link} to="/" className='ms-4 py-2 fs-large text-primary'>
+    <Navbar.Brand as={Link} to="/" className='ms-5 py-2 fs-large text-primary'>
       <Image src={Logo} width={60}/>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle-icon'/>
