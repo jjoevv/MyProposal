@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter basename={"/MyProposal/"}>
     
     <Routes>
-      <Route path="/hntv" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Project />} />
         <Route path="/aboutme" element={<About />} />
         <Route path="/contact" element={<Contact />} />
