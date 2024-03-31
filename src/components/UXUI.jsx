@@ -68,7 +68,7 @@ const UXUI = () => {
               <Card.Title>{project.title}</Card.Title>
               <Card.Text className='text-justify'>{project.content}</Card.Text>
               <Card.Text>Year// {project.year}</Card.Text>
-              <Button className='tertiary-normal border-0' onClick={() => navigate(`/hntv/project/${project.id}`)}>
+              <Button className='tertiary-normal border-0' onClick={() => navigate(`/project/${project.id}`)}>
                 <Image src={ArrowIcon} width={18} className='me-3' />
                 See more
               </Button>

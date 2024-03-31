@@ -36,7 +36,7 @@ const WebDev = () => {
                             <Card.Title>Chatting Website</Card.Title>
                             <Card.Text className='text-justify'>An intuitive interface for a chat website, enabling real-time communication and user interaction in customizable chat rooms.</Card.Text>
                             <Card.Text>- 2023 -</Card.Text>
-                            <Button className='tertiary-normal border-0' onClick={()=>navigate(`/hntv/project/chatapp`)}>
+                            <Button className='tertiary-normal border-0' onClick={()=>navigate(`/project/chatapp`)}>
                             <Image src={ArrowIcon} width={18} className='me-3'/>
                             See more
                           </Button>
@@ -64,7 +64,7 @@ const WebDev = () => {
                           <Card.Title>{project.title}</Card.Title>
                           <Card.Text className='text-justify'>{project.content}</Card.Text>
                           <Card.Text>- {project.year} -</Card.Text>
-                          <Button className='tertiary-normal border-0' onClick={()=>navigate(`/hntv/project/${project.id}`)}>
+                          <Button className='tertiary-normal border-0' onClick={()=>navigate(`/project/${project.id}`)}>
                             <Image src={ArrowIcon} width={18} className='me-3'/>
                             See more
                           </Button>
