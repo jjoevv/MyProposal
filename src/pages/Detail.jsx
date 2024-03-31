@@ -82,7 +82,7 @@ const Detail = () => {
     }
   ];
   const navigate = useNavigate()
-  const currentData = data.find(item => item.id === location.pathname.substring(location.pathname.lastIndexOf('/') + 1));
+  const currentData = data.find(item => item.id ===  window.location.hash.substring( window.location.hash.lastIndexOf('/') + 1));
   let nextItemIndex = -1;
   if (currentData) {
     const currentIndex = data.findIndex(item => item.id === currentData.id);
@@ -176,7 +176,7 @@ const Detail = () => {
       }
       <div className='w-100 d-flex justify-content-center py-5'>
 
-        <Button className='primary-normal rounded-0 ' onClick={() => navigate(`/hntv/project/${nextItem.id}`)}>
+        <Button className='primary-normal rounded-0 ' onClick={() => navigate(`/project/${nextItem.id}`)}>
           Next project
           <Image src={Arrow} width={20} className='ms-3' />
         </Button>

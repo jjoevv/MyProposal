@@ -1,4 +1,4 @@
-import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap'
+import { Button, Card, Col, Image, Row } from 'react-bootstrap'
 import Project1 from '../assets/imgs/conf2.png'
 import Project2 from '../assets/imgs/chat1.png'
 import ArrowIcon from '../assets/imgs/arrow.png'

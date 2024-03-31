@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Button, ButtonGroup, Container, Image } from 'react-bootstrap'
+import { useState } from 'react'
+import { ButtonGroup, Container, Image } from 'react-bootstrap'
 import UXUXIcon from '../assets/imgs/uxui.png'
 import ProductIcon from '../assets/imgs/designer.png'
 import DevIcon from '../assets/imgs/dev.png'
@@ -9,7 +9,7 @@ import WebDev from './WebDev'
 const navs = [
   { id: 1, title: 'UX/UI Designer', icon: UXUXIcon, component: <UXUI/> },
   { id: 2, title: 'Graphic Designer', icon: ProductIcon, component: <Graphic/> },
-  { id: 3, title: 'Frontend Developer', icon: UXUXIcon, component: <WebDev/> },
+  { id: 3, title: 'Frontend Developer', icon: DevIcon, component: <WebDev/> },
 ]
 const Skills = () => {
   const [selectedComponent, setSelectedComponent] = useState(navs[0].component);
