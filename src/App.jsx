@@ -17,11 +17,11 @@ function App() {
     <BrowserRouter basename={"/MyProposal/"}>
     
     <Routes>
-      <Route path="/MyProposal/hntv" element={<Layout />}>
+      <Route path="/hntv" element={<Layout />}>
         <Route index element={<Project />} />
-        <Route path="/hntv/aboutme" element={<About />} />
-        <Route path="/hntv/contact" element={<Contact />} />
-        <Route path="/hntv/project/:id" element={<Detail/>}/>
+        <Route path="/aboutme" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/project/:id" element={<Detail/>}/>
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
